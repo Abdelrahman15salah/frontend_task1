@@ -8,10 +8,9 @@ import {
   TextField,
   Button,
   Typography,
-  Avatar,
-  Chip
+  Avatar
 } from '@mui/material';
-import { PersonAdd as AddIcon, Person as UserIcon } from '@mui/icons-material';
+import { PersonAdd as AddIcon } from '@mui/icons-material';
 
 const UserList = ({ users, selectedUser, onSelectUser, onAddUser, adding }) => {
   const [newUser, setNewUser] = React.useState('');

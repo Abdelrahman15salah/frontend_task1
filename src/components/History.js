@@ -1,9 +1,5 @@
 import React from 'react';
 import { 
-  List, 
-  ListItem, 
-  ListItemText, 
-  Paper, 
   Fade, 
   Card, 
   CardContent, 
@@ -15,7 +11,6 @@ import {
 } from '@mui/material';
 import { 
   EmojiEvents as TrophyIcon,
-  TrendingUp as PointsIcon,
   Person as UserIcon
 } from '@mui/icons-material';
 
